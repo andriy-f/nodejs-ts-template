@@ -1,7 +1,7 @@
-import { config } from "./config";
+import { config } from "./config.js";
 
 const main = async () => {
-	console.log("Using port from config:", config.port);
+	console.log("Config port:", config.port);
 }
 
 main().
